@@ -1,0 +1,62 @@
+.cataSkeleton {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0px 100px;
+}
+.cata {
+  border-radius: 2px;
+  display: inline-block;
+  /* line-height: 100%; */
+  width: 100%;
+  background-color: #fff;
+  background: linear-gradient(
+    100deg,
+    rgba(232, 232, 232, 1) 20%,
+    rgba(250, 250, 250, 1) 50%,
+    rgba(232, 232, 232, 1) 60%
+  );
+  background-size: 1000px 1000px;
+  animation: placeholderShimmer 1.5s linear infinite forwards;
+}
+.cataHead {
+  margin-bottom: 30px;
+  margin: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterSk {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.filterS {
+  padding: 20px 30px;
+  background-color: #fff;
+  background: linear-gradient(
+    100deg,
+    rgba(232, 232, 232, 1) 20%,
+    rgba(250, 250, 250, 1) 50%,
+    rgba(232, 232, 232, 1) 60%
+  );
+  background-size: 1000px 1000px;
+  animation: placeholderShimmer 1.5s linear infinite forwards;
+}
+.productSk {
+  height: auto;
+  width: 300px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  background: linear-gradient(
+    100deg,
+    rgba(232, 232, 232, 1) 20%,
+    rgba(250, 250, 250, 1) 50%,
+    rgba(232, 232, 232, 1) 60%
+  );
+  background-size: 1000px 1000px;
+  animation: placeholderShimmer 1.5s linear infinite forwards;
+}
